@@ -15,13 +15,13 @@ function ManageExpense({ route, navigation }) {
   }, [navigation, isEditing]);
 
   function deleteExpenseHandler() {
-    // Silme işlemi burada yapılacak
+    navigation.goBack()
   }
   function cancelHandler(){
-
+    navigation.goBack()
   }
   function confirmHandler(){
-
+    navigation.goBack()
   }
 
   return (
